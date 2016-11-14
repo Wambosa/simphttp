@@ -34,3 +34,9 @@ func Test_GIVEN_valid_endpoint_returns_json_by_default_WHEN_GetJson_is_called_TH
     expecting.Property("ok").Truthy()
     expecting.Property("version").Truthy()
 }
+
+func Test_GIVEN_valid_endpoint_returns_json_by_default_WHEN_Query_is_called_THEN_returns_map(t *testing.T){
+    
+    t.Skip()
+    // todo
+}
